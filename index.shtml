@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="Prop.css">
+      <title>Ink 1</title>
+   </head>
+   <body>
+      <header>
+         <div id="position">
+            <div id="logo"></div>
+            <nav id=nav1>
+               <i class="fa fa-facebook icons" aria-hidden="true"></i>
+               <i class="fa fa-twitter icons" aria-hidden="true"></i>
+               <i class="fa fa-shopping-cart icons" aria-hidden="true"></i>
+               <i id="main-icon" class="fa fa-bars" aria-hidden="true"></i>
+            </nav>
+         </div>
+      </header>
+      <section id="section1">
+         <div id="block1">
+            <div class="wide-square yellow" id="block1-1">
+               <h3 class="line btext">building the<br>world around us</h3>
+               <span id="block1-1-3">Still other clients have reserved for capital imporvement projects and will work directly with our Design and Engineering team.</span>
+               <a id=block1-1-4 class="button lwhite center">read more</a>
+            </div>
+            <div class="square blue center">
+               <div id="circle1" class="gray center" style="margin: 10px">
+                  <i id ="w-delta" class="fa fa-play"></i>
+               </div>
+               <strong class="lwhite">company video</strong>
+            </div>
+         </div>
+         <div id="block2">
+         <div class="block-button square white" style="margin-bottom: 206px;">
+            <i class="fa fa-play delta rarr"></i>
+            <span class="next">01<sup class="prev">/03</sup></span>
+            <i class="fa fa-play rev-delta"></i>
+         </div>
+         </div>
+      </section>
+      <section id="section2">
+         <div id="block3">
+               <div id="block3-1">
+                  <div class="square white special-center-text">
+                     <h3 class="line btext">our<br>servises</h3>
+                     <span class="gray-text">Our mission is to provide the highest level of service for our client-partners from concept through construction.</span>
+                  </div>
+                  <div class="block-button square white">
+                     <i class="fa fa-play delta rarr"></i>
+                     <span class="next">03<sup class="prev">/06</sup></span>
+                     <i class="fa fa-play rev-delta"></i>
+                  </div>
+               </div>
+               <div id="block3-2">
+                  <div id="block-grid0">
+                     <div id="grid-item-1" class="special-center-text white">
+                        <h5 class="line">General<br>Contranting</h5>
+                        <span class="gray-text">This allows the Design and Engineering team to originate drawings, specifications, structural calculations, details and scopes of work that deliver exactly what the client had intended to achieve.</span>
+                     </div>
+                     <div id="grid-item-2" class="special-center-text white">
+                        <h5 class="line">Project design<br> and engineering</h5>
+                        <span class="gray-text">Through Stage-Gate. Design and Engineering methodology. DMCS ensure client-partners realize clearly defined project objective to achieve intended results.</span>
+                     </div>
+                     <div id="grid-item-3" class="special-center-text white">
+                        <h5 class="line">Capital<br>improvements</h5>
+                        <span class="gray-text">This results in scope creep and slippage of the schedule that ultimately result in additional costs to the owner.</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="block4">
+            <div id="block4-1">
+               <div class="square yellow item-indent1 center-all-items">
+                  <i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i>
+                  <strong class="lgray">download price</strong>
+               </div>
+               <div class="square blue item-indent1 center-all-items">
+                  <i class="fa fa-map-marker fa-4x " aria-hidden="true"></i>
+                  <strong class="lwhite">contact us</strong>
+               </div>
+               <div id="block4-1-3" class="wide-square">
+                  <div id="block4-1-3-1" class="backgrey"></div>
+                  <div id="block4-1-3-2" class="invitation mark"><input id="text-field" type="text"></div>
+               </div>
+            </div>
+         </div>
+         <div id="block5-grid">
+            <div id="grid-1-1" class="white center-all-items item-indent2">
+               <div class="small-square"></div>
+               <span class="black-text">Martin H. Jhonsons</span>
+               <span class="gold-star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+               <span class="center-text gray-text1">Together, we`ll couple our knowledge, expertise, and innovative capabilites with your astute knowledge of your business - to maximize and optimize results. This is all accomplished in a number of ways.</span>
+            </div>
+            <div id="grid-1-2" class="width-grid">
+               <h4 class="line btext">your building is in<br>good hands</h4>
+               <span>Our mission is to provide the highest level of service for our client-partners from concept through construction.</span>
+               <a>about company</a>
+            </div>
+            <div id="grid-2-1" class="rose"></div>
+            <div id="grid-2-2" class="white"></div>
+            <div id="grid-2-3"></div>
+            <div id="grid-3-1" class="blue"></div>
+            <div id="grid-3-2" class="white"></div>
+            <div id="grid-3-3"></div>
+            <div id="grid-3-4" class="white"></div>
+            <div id="grid-4-1" class="white"></div>
+            <div id="grid-4-4" class="yellow"></div>
+            <div id="grid-5-1" class="white"></div>
+            <div id="grid-5-3" class="white"></div>
+            <div id="grid-5-4" class="blue"></div>
+         </div>
+      </section>
+      <!--#include file="footer.html"-->
+      <label id="label" class="pointer" for="K">Кнопка</label>
+      <input id="K" class="invis" type="checkbox" >
+      <img id="first-img" src="maket.jpg" width="100%">
+      <script src=js.js></script>
+    </body>
+</html>
