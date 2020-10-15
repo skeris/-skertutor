@@ -68,6 +68,9 @@
                         <h5 class="line">Capital<br>improvements</h5>
                         <span class="gray-text">This results in scope creep and slippage of the schedule that ultimately result in additional costs to the owner.</span>
                      </div>
+                     <div id="item-grid1"></div>
+                     <div id="item-grid2"></div>
+                     <div id="item-grid3"></div>
                   </div>
                </div>
             </div>
@@ -89,29 +92,87 @@
             </div>
          </div>
          <div id="block5-grid">
-            <div id="grid-1-1" class="white center-all-items item-indent2">
-               <div class="small-square"></div>
+            <div style="grid-area:a1" class="white center-all-items item-indent2">
+               <div class="small-square ava0"></div>
                <span class="black-text">Martin H. Jhonsons</span>
                <span class="gold-star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-               <span class="center-text gray-text1">Together, we`ll couple our knowledge, expertise, and innovative capabilites with your astute knowledge of your business - to maximize and optimize results. This is all accomplished in a number of ways.</span>
+               <span class="center-text gray-text1 sq">Together, we`ll couple our knowledge, expertise, and innovative capabilites with your astute knowledge of your business - to maximize and optimize results. This is all accomplished in a number of ways.</span>
             </div>
-            <div id="grid-1-2" class="width-grid">
-               <h4 class="line btext">your building is in<br>good hands</h4>
-               <span>Our mission is to provide the highest level of service for our client-partners from concept through construction.</span>
-               <a>about company</a>
+            <div style="grid-area:a2" class=" item-indent3 width-grid bg1">
+               <h3 class="line btext a2top">your building is in<br>good hands</h3>
+               <span class="item-indent-text3">Our mission is to provide the highest level of service for our client-partners from concept through construction.</span>
+               <div id="but" class="a2bottom item-indent-text3 button center"><a class="btext whitet">about company</a></div>
             </div>
-            <div id="grid-2-1" class="rose"></div>
-            <div id="grid-2-2" class="white"></div>
-            <div id="grid-2-3"></div>
-            <div id="grid-3-1" class="blue"></div>
-            <div id="grid-3-2" class="white"></div>
-            <div id="grid-3-3"></div>
-            <div id="grid-3-4" class="white"></div>
-            <div id="grid-4-1" class="white"></div>
-            <div id="grid-4-4" class="yellow"></div>
-            <div id="grid-5-1" class="white"></div>
-            <div id="grid-5-3" class="white"></div>
-            <div id="grid-5-4" class="blue"></div>
+            <div style="grid-area:b1" class="rose center-all-items item-indent2">
+               <div class="small-square ava1"></div>
+               <span class="black-text">Tony SH. Schults</span>
+               <span class="gold-star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+               <span class="center-text gray-text1">When selecting DMCS as the design-build-team, clients benefit terms of effciency and continuity that translate into cost savings and optimized schedules. Contact us today and see how DMCS can best serve you from</span>
+               <div id="button-container">
+                  <div id="but-nv"></div><div id="but-nv" class=spb></div>
+                  <div id="but-v"></div><div id="but-v" class=spb></div>
+               </div>
+            </div>
+            <div style="grid-area:b2" class="white bc">
+            <div class="yellow-sq yellow-small-square center">&#9773;</div>
+               <span class="item-indent-text4">55 000</span>
+               <span class="item-indent-text3 text-3-1">Expert Witness</span>            
+            </div>
+            <div style="grid-area:b3" class="bg2 bc">
+               <div class="yellow-sq yellow-small-square center"><span class="fa fa-tint" aria-hidden="true"></span></div>
+               <span class="item-indent-text4">124 600</span>
+               <span class="item-indent-text3">Construction</span>
+            </div>
+            <div id="c1" style="grid-area:c1" class="blue">
+               <h3 id="c1-0" class="whitet btext">news</h3>
+               <span id="c1-1" class="whitet opa">12 febrary 2015</span>
+               <span id="c1-2" class="whitet">Project Design and Engineering Services</span>
+               <span id="c1-1" class="whitet opa">23 comments</span>
+               <div id="button-container1">
+                  <div class="but-nv1"></div><div class="but-v1 white"></div>
+                  <div class="but-nv1 sbp1-0"></div><div class="but-v1 sbp1-0 white"></div>
+                  <div class="but-nv1 sbp1-1"></div><div class="but-v1 sbp1-1 white"></div>
+               </div>
+            </div>
+            <div style="grid-area:c2" class="white center-all-items item-indent4">
+               <div class="small-square ava2"></div>
+               <span class="black-text">David Mc. Adams</span>
+               <span class="gold-star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+               <span class="center-text gray-text1 sq">In most urban areas, construction has already duilt existing structures, many having been standing for decades.</div>
+            <div style="grid-area:c3" class="bg3 bc">
+               <div class="yellow-sq yellow-small-square center"><span class="fa fa-cog" aria-hidden="true"></span></div>
+               <span class="item-indent-text4">18 000</span>
+               <span class="item-indent-text3">Procurement</span>
+            </div>
+            <div style="grid-area:c4" class="white bc">
+               <div class="yellow-sq yellow-small-square center"><span class="fa fa-lightbulb-o" aria-hidden="true"></span></div>
+               <span class="item-indent-text4">78 150</span>
+               <span class="item-indent-text3 text-3-1">Projects Managments</span>
+            </div>
+            <div id="d1" style="grid-area:d1" class="white">
+               <div>
+                  <h3 id="d1-0" class="line">Cotemporary Villa</h3>
+                  <div id="spec">
+                     <span class="a">Diversity is a buzzword often heard by brand managers, business tycoons, politicians, and more: but it`s much more then that. To us at DM Construction, diversity is the name of the game.</span>
+                     <span class="a">We offer a diverse set of skills to all clients in all fields, but also offer a diverse group of individuals who able to deliver those skills.From</span>
+                  </div>
+               </div>
+               <div id="enbot" class="yellow center"><a class="btext">view project</a></div>
+               </div>
+            <div style="grid-area:d2" class="yellow center">
+               <span id="d2" class="fa fa-cogs" aria-hidden="true"></span>
+               <span id="d2-0" class="btext">work with us</span>
+            </div>
+            <div style="grid-area:e2" id="e2" class="blue">
+               <h3 id="subscribe" class="whitet linew btext">subscribe</h3>
+               <div class="bef"><input id="text-field0" type="text"></div>
+               <span id="e2-0" class="btext">sign up</span>
+            </div>
+            <div style="grid-area:e1" class="bg4"></div>
+            <div id="f" class="block-button square white" style="margin-bottom: 206px;">
+               <i class="fa fa-play delta rarr"></i>
+               <span class="next">01<sup class="prev">/09</sup></span>
+               <i class="fa fa-play rev-delta"></i></div>
          </div>
       </section>
       <!--#include file="footer.html"-->
