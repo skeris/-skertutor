@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="src/css/total.css">
+      <link rel="stylesheet" type="text/css" href="src/css/index1.css">
+      <title>Ink 1</title>
+   </head>
+   <body>
+        <!--#include file="header.html"-->
+        <section id="section0">
+            <div id="block00" class="top-gray ra-height">
+                <div id="block00-1" class="ra-height spec-top-left abs"></div>
+                <div id="block00-2" class="ra-height spec-top-right abs"></div>
+            </div>
+            <div id="block01">
+                <div id="block01-1"></div>
+                <div></div><!--strelochky!-->
+            </div>
+        </section>
+        <section id="section11">
+            <img id="img11">
+            <div id="11-0"></div>
+            <div id="grid11"></div>
+        </section>
+        <!--#include file="footer.html"-->
+        <label id="label" class="pointer" for="K">Кнопка</label>
+        <input id="K" class="invis" type="checkbox" >
+        <img id="first-img" src="src/image/maket1.jpg" width="100%">
+    </body>
+</html>

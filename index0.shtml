@@ -4,23 +4,14 @@
       <meta charset="utf-8" />
       <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet"> 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <link rel="stylesheet" type="text/css" href="Prop.css">
-      <title>Ink 1</title>
+      <link rel="stylesheet" type="text/css" href="src/css/total.css">
+      <link rel="stylesheet" type="text/css" href="src/css/index0.css">
+      <title>Ink</title>
    </head>
    <body>
-      <header>
-         <div id="position">
-            <div id="logo"></div>
-            <nav id=nav1>
-               <i class="fa fa-facebook icons" aria-hidden="true"></i>
-               <i class="fa fa-twitter icons" aria-hidden="true"></i>
-               <i class="fa fa-shopping-cart icons" aria-hidden="true"></i>
-               <i id="main-icon" class="fa fa-bars" aria-hidden="true"></i>
-            </nav>
-         </div>
-      </header>
-      <section id="section1">
-         <div id="block1">
+      <!--#include file="header.html"-->
+      <section id="section1" class="top-gray">
+         <div id="block1" class="spec-top-left">
             <div class="wide-square yellow" id="block1-1">
                <h3 class="line btext">building the<br>world around us</h3>
                <span id="block1-1-3">Still other clients have reserved for capital imporvement projects and will work directly with our Design and Engineering team.</span>
@@ -33,7 +24,7 @@
                <strong class="lwhite">company video</strong>
             </div>
          </div>
-         <div id="block2">
+         <div id="block2" class="spec-top-right">
          <div class="block-button square white" style="margin-bottom: 206px;">
             <i class="fa fa-play delta rarr"></i>
             <span class="next">01<sup class="prev">/03</sup></span>
@@ -178,7 +169,7 @@
       <!--#include file="footer.html"-->
       <label id="label" class="pointer" for="K">Кнопка</label>
       <input id="K" class="invis" type="checkbox" >
-      <img id="first-img" src="maket.jpg" width="100%">
+      <img id="first-img" src="src/image/maket.jpg" width="100%">
       <script src=js.js></script>
     </body>
 </html>
