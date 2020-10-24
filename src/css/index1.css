@@ -1,0 +1,13 @@
+#bott-00-1{
+    height: calc(var(--ra)/5);
+    margin-right: calc(var(--ra)*2);
+    margin-bottom: calc(var(--ra)/5);
+}
+#block01{
+    display: flex;
+    justify-content: center;
+}
+#sect11{
+    display: inline;
+}
+/*Картинки*/

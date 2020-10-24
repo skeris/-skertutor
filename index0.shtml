@@ -24,7 +24,7 @@
                <strong class="lwhite">company video</strong>
             </div>
          </div>
-         <div id="block2" class="spec-top-right">
+         <div id="block2" class="spec-top-right backgrey">
          <div class="block-button square white" style="margin-bottom: 206px;">
             <i class="fa fa-play delta rarr"></i>
             <span class="next">01<sup class="prev">/03</sup></span>
@@ -76,8 +76,8 @@
                   <i class="fa fa-map-marker fa-4x " aria-hidden="true"></i>
                   <strong class="lwhite">contact us</strong>
                </div>
-               <div id="block4-1-3" class="wide-square">
-                  <div id="block4-1-3-1" class="backgrey"></div>
+               <div id="block4-1-3" class="parent wide-square">
+                  <div class="abs under-parent-right backgrey"></div>
                   <div id="block4-1-3-2" class="invitation mark"><input id="text-field" type="text"></div>
                </div>
             </div>

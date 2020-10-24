@@ -12,16 +12,27 @@
         <!--#include file="header.html"-->
         <section id="section0">
             <div id="block00" class="top-gray ra-height">
-                <div id="block00-1" class="ra-height spec-top-left abs"></div>
-                <div id="block00-2" class="ra-height spec-top-right abs"></div>
+                <div id="block00-1" class="ra-height spec-top-left abs">
+                    <div id="bott-00-1" class="white ra-width">
+                        <h3>news & events</h3>
+                    </div>
+                </div>
+                <div id="block00-2" class="ra-height spec-top-right abs backgrey"></div>
             </div>
-            <div id="block01">
-                <div id="block01-1"></div>
-                <div></div><!--strelochky!-->
+            <div id="block01" >
+                <div class="double-wide-square backgrey parent">
+                    <div class="abs der-parent under-parent-left backgrey"></div>
+                </div>
+                <div class="block-button square backgrey">
+                    <i class="fa fa-play delta rarr"></i>
+                    <i class="fa fa-play rev-delta"></i>
+                 </div><!--strelochky!-->
             </div>
         </section>
         <section id="section11">
-            <img id="img11">
+            <div style="height: calc(var(--ra) * 2);">
+                <div class="medium-square backgrey1"></div>
+            </div>
             <div id="11-0"></div>
             <div id="grid11"></div>
         </section>
