@@ -9,9 +9,19 @@
       <title>Ink</title>
    </head>
    <body>
-      <!--#include file="header.html"-->
-      <section id="section1" class="top-gray">
-         <div id="block1" class="spec-top-left">
+      <header>
+         <div id="position">
+            <div id="logo"></div>
+            <nav id=nav1>
+               <i class="fa fa-facebook icons" aria-hidden="true"></i>
+               <i class="fa fa-twitter icons" aria-hidden="true"></i>
+               <i class="fa fa-shopping-cart icons" aria-hidden="true"></i>
+               <i id="main-icon" class="fa fa-bars" aria-hidden="true"></i>
+            </nav>
+         </div>
+      </header>
+      <section id="section1">
+         <div id="block1">
             <div class="wide-square yellow" id="block1-1">
                <h3 class="line btext">building the<br>world around us</h3>
                <span id="block1-1-3">Still other clients have reserved for capital imporvement projects and will work directly with our Design and Engineering team.</span>
@@ -24,7 +34,7 @@
                <strong class="lwhite">company video</strong>
             </div>
          </div>
-         <div id="block2" class="spec-top-right backgrey">
+         <div id="block2">
          <div class="block-button square white" style="margin-bottom: 206px;">
             <i class="fa fa-play delta rarr"></i>
             <span class="next">01<sup class="prev">/03</sup></span>
@@ -76,8 +86,8 @@
                   <i class="fa fa-map-marker fa-4x " aria-hidden="true"></i>
                   <strong class="lwhite">contact us</strong>
                </div>
-               <div id="block4-1-3" class="parent wide-square">
-                  <div class="abs under-parent-right backgrey"></div>
+               <div id="block4-1-3" class="wide-square">
+                  <div id="block4-1-3-1" class="backgrey"></div>
                   <div id="block4-1-3-2" class="invitation mark"><input id="text-field" type="text"></div>
                </div>
             </div>
@@ -169,7 +179,7 @@
       <!--#include file="footer.html"-->
       <label id="label" class="pointer" for="K">Кнопка</label>
       <input id="K" class="invis" type="checkbox" >
-      <img id="first-img" src="src/image/maket.jpg" width="100%">
+      <img id="first-img" src="maket.jpg" width="100%">
       <script src=js.js></script>
     </body>
 </html>

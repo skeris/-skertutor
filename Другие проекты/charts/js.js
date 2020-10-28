@@ -2,20 +2,11 @@
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
-        let batyamassiv = [
+        var data = google.visualization.arrayToDataTable([
           ['bottom', 'left'],
-        ];
-
-        for (let i = 0; i < 101; i++) {
-          batyamassiv.push([i+'',0])
-        } 
-
-        for (let i = 0; i < 999; i++) {
-          //console.log(getRandomInt(0,100))
-            batyamassiv[getRandomInt(0,100)+1][1]+=1
-        } 
-
-        var data = google.visualization.arrayToDataTable(batyamassiv);
+          ['2004',  1000  ],
+          ['3',     5]
+        ]);
 
         var options = {
           title: 'Company Performance',
@@ -28,8 +19,7 @@
         chart.draw(data, options);
       }
 
-      function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-      }
-      
-  getRandomInt(0, 100)
+function getRandomFloat(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+  getRandomFloat(0, 100)
