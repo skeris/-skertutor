@@ -9,6 +9,7 @@
     height: 582px;
     width: calc(50% + var(--ra));
     background-image: url(/src/image/0.png);
+    background-size: 100%;
  }
 #block1-1{display:flex;flex-direction:column;margin-right:206px;padding:24px 19px}
 #block1-1-3{line-height: 15px;font-weight:600;margin-top:10px}
