@@ -1,7 +1,7 @@
 window.onload = function() {
  // Check for the various File API support.
  if (window.File && window.FileReader && window.FileList && window.Blob) {
-    // Great success! All the File APIs are supported.
+        let red = [];      
   
         function handleFileSelect(evt) {
           evt.stopPropagation();
@@ -20,6 +20,8 @@ window.onload = function() {
           return function(e) {
             if (e.explicitOriginalTarget.readyState = 2){
             console.log(e.explicitOriginalTarget.result)
+            red.push(JSON.parse(e.explicitOriginalTarget.result));
+            console.log(red[red.length-1])
             }
           };
         })(f);
@@ -40,4 +42,4 @@ window.onload = function() {
         dropZone.addEventListener('drop', handleFileSelect, false);
       } else {
     alert('The File APIs are not fully supported in this browser.');
-      }
+      }}

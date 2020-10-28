@@ -6,11 +6,41 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="src/css/total.css?v=0">
       <link rel="stylesheet" type="text/css" href="src/css/index1.css?v=0">
-      <title>Ink 1</title>
+      <title>Ink</title>
    </head>
    <body>
       <!--#include file="header.html"-->
+    <section id="previev">
+        <article id="left-top-plase">
+            <div id="top-news-button">
+                <a></a>
+            </div>
+        </article>
+        <article id="right-top-plase"></article>
+    </section>
+    <section id="news">
+        <article id="news-block">
+            <div id="news-block-helper"></div>
+        </article>
+        <article id="tumblers">
+            <i class="fa fa-play delta rarr pointer"></i>
+            <i class="fa fa-play rev-delta rarr pointer"></i>
+        </article>
+    </section>
+    <section id="trio blocks">
+        <article id="left-img">
+            <div id="left-img-helper"></div>
+        </article>
+            <article id="buttons">
+                <i class="fa fa-play delta rarr pointer"></i>
+                <span class="next">03<sup class="prev">/06</sup></span>
+                <i class="fa fa-play rev-delta rarr pointer"></i>
+            </article>
+        <article id="right-img">
+            <article
+        </article>
 
+    </section>
       <!--#include file="footer.html"-->
     </body>
 </html>

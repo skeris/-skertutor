@@ -1,6 +1,18 @@
 body{margin: 0px; z-index: 1;font-family:'Hind-Siliguri', sans-serif; color: var(--button);overflow-x: hidden}
 div{box-sizing:border-box;}
-:root{--ra:206px; --blue:#2197d7; --yellow:#ffe400; --gray:#594c43; --button:#363636; --delta:#6c6c6c; --backgrey:#282828;--rose:#fcf3d2;--sq:#b1b1b1;}
+article{box-sizing:border-box;}
+:root{
+    --ra:206px;
+    --blue:#2197d7;
+    --yellow:#ffe400;
+    --gray:#594c43;
+    --button:#363636;
+    --delta:#6c6c6c;
+    --backgrey:#282828;
+    --rose:#fcf3d2;
+    --sq:#b1b1b1;
+    --imgBG:#d7d7d7;
+}
 .pointer{cursor: pointer;}
 .square {
     width: var(--ra);
@@ -10,6 +22,8 @@ div{box-sizing:border-box;}
     width: calc( var(--ra) * 2 );
     height: var(--ra);
 }
+.delta{color:var(--delta);font-size:24px;transform: scaleX(0.8);}
+.rev-delta{color:var(--delta);font-size:24px;transform: scaleX(-0.8);}
 .opa{opacity: 0.3;}
 /*Настройки текста*/
 h3{margin:0}
