@@ -18,29 +18,41 @@
         </article>
         <article id="right-top-plase"></article>
     </section>
-    <section id="news">
-        <article id="news-block">
-            <div id="news-block-helper"></div>
-        </article>
-        <article id="tumblers">
-            <i class="fa fa-play delta rarr pointer"></i>
-            <i class="fa fa-play rev-delta rarr pointer"></i>
-        </article>
-    </section>
-    <section id="trio blocks">
-        <article id="left-img">
-            <div id="left-img-helper"></div>
-        </article>
-            <article id="buttons">
-                <i class="fa fa-play delta rarr pointer"></i>
-                <span class="next">03<sup class="prev">/06</sup></span>
-                <i class="fa fa-play rev-delta rarr pointer"></i>
-            </article>
-        <article id="right-img">
-            <article
-        </article>
+    <div class="background-all">
+        <div id="news-helper">
+            <section id="news">
+                <article id="news-block">
+                    <div id="news-block-helper"></div>
+                </article>
+                <article id="tumblers">
+                    <i class="fa fa-play delta rarr pointer"></i>
+                    <i class="fa fa-play rev-delta rarr pointer"></i>
+                </article>
+            </section>
+        </div>
+        <div id="info-additionally-positions-healper">
+            <div id="info-additionally-positions">
+            <section id="info-section">
+                <section id="images">
+                    <article id="left-img">
+                        <div id="left-img-helper"></div>
+                    </article>
+                    <article id="right-img">
+                        <article id="buttons">
+                            <i class="fa fa-play delta rarr pointer"></i>
+                            <span class="next">03<sup class="prev">/06</sup></span>
+                            <i class="fa fa-play rev-delta rarr pointer"></i>
+                        </article>  
+                    </article>
+                </section id="posts">
+                <div></div>
+            </section>
+            <section id="additionally-section">
 
-    </section>
+            </section>
+            </div>
+        </div>
+    </div>
       <!--#include file="footer.html"-->
     </body>
 </html>

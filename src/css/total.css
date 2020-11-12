@@ -13,6 +13,7 @@ article{box-sizing:border-box;}
     --sq:#b1b1b1;
     --imgBG:#d7d7d7;
 }
+.background-all{background-color: #f5f5f5;}
 .pointer{cursor: pointer;}
 .square {
     width: var(--ra);
