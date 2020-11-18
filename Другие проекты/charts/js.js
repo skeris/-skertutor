@@ -1,20 +1,20 @@
-      google.charts.load('current', {'packages':['corechart']});
+      google.charts.load("current", {"packages":["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['bottom', 'left'],
-          ['2004',  1000  ],
-          ['3',     5]
+          ["bottom", "left"],
+          ["2004",  1000  ],
+          ["3",     5]
         ]);
 
         var options = {
-          title: 'Company Performance',
-          curveType: 'function',
-          legend: { position: 'bottom' }
+          title: "Company Performance",
+          curveType: "function",
+          legend: { position: "bottom" }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var chart = new google.visualization.LineChart(document.getElementById("curve_chart"));
 
         chart.draw(data, options);
       }
