@@ -1,11 +1,13 @@
 function checkDiv(data){
   return (data.nodeName = "DIV")
 };
+
 function handleDragOver(evt) {
   evt.stopPropagation();
   evt.preventDefault();
   evt.dataTransfer.dropEffect = "copy";
 };
+
 function Team (landingPlace){
   if(!checkDiv(landingPlace)){
     throw new TypeError("В Team вложен не div")
@@ -17,6 +19,7 @@ function Team (landingPlace){
   var div = document.createElement("div");
   this.display = div;
   this.landingPlace.after(div);
+
   function draw(display){
     if(!checkDiv(display)){
       throw new TypeError("В Team вложен не div")
@@ -35,6 +38,7 @@ function Team (landingPlace){
       display.append(newDiv);
     });
   };
+
   this.draw = draw;
 
   let that = this
@@ -42,10 +46,8 @@ function Team (landingPlace){
   function handleFileSelect(evt) {
     evt.stopPropagation();
     evt.preventDefault();
-  
-    var files = evt.dataTransfer.files; // FileList object.
-  
-    // files is a FileList of File objects. List some properties.
+    var files = evt.dataTransfer.files;
+
     for (var i = 0, f; f = files[i]; i++) {
       if (!f.type.match("text.*")) {
         continue;
@@ -65,25 +67,111 @@ function Team (landingPlace){
     //document.getElementById("list").innerHTML = "<ul>" + output.join("") + "</ul>";
   }
 };
+
+
+
 function figth(red, blue){
+
   if(!red instanceof Team){
     throw new TypeError("В figth вложены не Team объекты")
   };
   if(!blue instanceof Team){
     throw new TypeError("В figth вложены не Team объекты")
-  };
-};
+   };
+
+   var sumPower = [];
+
+  var resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
+
+  red.tribes.forEach (function(item){
+    var stringItem = JSON.stringify(item);
+
+    var code = document.createElement("code");
+    code.innerHTML = stringItem;
+    code.style.color = "red"
+    resultDiv.append(code);
+
+
+    var linkDowload = document.createElement("a");
+
+    linkDowload.href = 'data:application/csv;charset=utf-8,' + encodeURIComponent(stringItem);
+    linkDowload.target = '_blank';
+    linkDowload.download = item.name + '.txt';
+
+    linkDowload.innerHTML = "Скачать";
+    resultDiv.append(linkDowload);
+
+    let powerArr = item.personages.map(function(item){
+
+      console.log(item.name);
+
+      let power = item.power;
+      
+      if(item.sex == "female"){
+        power = item.power * 0.75
+      };
+
+      if(item.age <= 12){
+        power = power * 0
+      } else if(item.age <= 16){
+        power = power * 0.5
+      } else if(item.age <= 50){
+        power = power * 1
+      } else if(item.age <= 70){
+        power = power * 0.5
+      } else{
+        power = power * 0
+      };
+
+      if(item.invalidity == true){
+        power = power * 0.5
+      };
+      //console.log(power);
+
+      return power;
+    });
+    //console.log(powerArr)
+
+    let powerResult = powerArr.reduce(function(previousValue, currentItem){
+
+      return previousValue + currentItem;
+    });
+    // console.log (powerResult)
+
+    sumPower.push(powerResult)
+
+    console.log(sumPower)
+  });  
+  
+  blue.tribes.forEach (function(item){
+    var stringItem = JSON.stringify(item);
+
+    var code = document.createElement("code");
+    code.innerHTML = stringItem;
+    code.style.color = "blue"
+    resultDiv.append(code);
+
+    var linkDowload = document.createElement("a");
+
+    linkDowload.href = 'data:application/csv;charset=utf-8,' + encodeURIComponent(stringItem);
+    linkDowload.target = '_blank';
+    linkDowload.download = item.name + '.txt';
+
+    linkDowload.innerHTML = "Скачать";
+    resultDiv.append(linkDowload);
+  });
+};  
 window.onload = function() {
   if (window.File && window.FileReader && window.FileList && window.Blob) {
     try{
     let teamRed = new Team(document.getElementById("dropZoneRed"));
     let teamBlue = new Team(document.getElementById("dropZoneBlue"));
-    document.getElementById("buttonFight").onclick = figth(teamRed,teamBlue);
-    //console.log(teamBlue)
+    document.getElementById("buttonFight").onclick = () => figth(teamRed,teamBlue);
     } catch(err){
       alert("Type Error " + err.message)   
     }
   } else {
       alert("The File APIs are not fully supported in this browser.");
-    };
+  };
 };
