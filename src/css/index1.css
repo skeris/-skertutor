@@ -109,5 +109,7 @@ Indicates blocks position*/
     align-items:center;
     background-color: white;
 }
-/* пнуь скериса*/
-article{box-sizing: border-box;}
+#words{
+    padding-right: var(--ra);
+    width: calc(var(--ra) * 3);
+}

@@ -1,61 +1,121 @@
 h4{margin: 0;}
+
 a{
+
     text-decoration: none;
+
     color: black;
+
     background-color: honeydew;
+
     border-bottom: 2px gray solid;
+
 }
+
 span{
+
     text-align: center;
+
 }
+
 #buttonFight{
+
     position: absolute;
+
     right: 0;
+
 }
+
 .display{
+
     display: flex;
+
     flex-direction: column;
+
     align-items: center;
+
     justify-content: center;
+
     width: 450px;
+
     border: 5px solid;
+
 }
+
 .personInfo{
+
     display: flex;
+
     flex-direction: column;
+
     align-items: flex-start;
+
     width: 100%;
+
     padding: 0 5% 5%;
+
     border: 2px solid;
+
     box-sizing:border-box;
+
 }
+
 #inline{
+
     display: inline-flex;
+
 }
+
 #dropZoneRed{
+
     display: flex;
+
     flex-direction: column;
+
     align-items: center;
+
     justify-content: center;
+
     width: 450px;
+
     height: 250px;
+
     border: 5px solid;
+
     border-color: red;
+
 }
+
 #dropZoneBlue{
+
     display: flex;
+
     flex-direction: column;
+
     align-items: center;
+
     justify-content: center;
+
     width: 450px;
+
     height: 250px;
+
     border: 5px solid;
+
     border-color: blue;
+
 }
+
 #result{
+
     height: 500px;
+
     width: 500px;
+
     border: 5px gray solid;
+
     display: flex;
+
     flex-direction: column;
+
 }

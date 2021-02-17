@@ -4,6 +4,7 @@
       <meta charset="utf-8" />
       <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet"> 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
       <link rel="stylesheet" type="text/css" href="src/css/total.css?v=0">
       <link rel="stylesheet" type="text/css" href="src/css/index0.css?v=0">
       <title>Ink 1</title>

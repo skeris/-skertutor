@@ -55,7 +55,7 @@ function Team (landingPlace){
     var reader = new FileReader();
     reader.onload = (function(theFile) {
     return function(e) {
-      if (e.explicitOriginalTarget.readyState = 2){
+      if (e.target.readyState = 2){
       //console.log(that);
       that.tribes.push(JSON.parse(e.explicitOriginalTarget.result));
       that.draw(that.display);
